@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    text-align: center;
+    align-content: center;
+    background-color: black;
+}
+
+.nav{
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav ul{
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    margin-right: 100px;
+}
+
+.nav ul :first-child:hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+.nav ul :nth-child(2):hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+.nav ul :nth-child(3):hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+.nav ul :nth-child(4):hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+.nav ul :nth-child(5):hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+.nav ul :last-child:hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+.nav img{
+    margin-left: 100px;
+    align-content: center;
+}
+
+.section1{
+    margin-top: 35px;
+    background-image: url(img/Rectangle\ 2.png);
+    /* width: 1440px; */
+    height: 590px;
+    background-color: #000000C7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.buttom{
+    margin-top: 60px;
+    font-family: "Inter", sans-serif;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+    /* margin-top: 40px; */
+    margin: 30px auto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.box1{
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    width: 237px;
+    height: 209px;
+    background-color: green;
+    color: red;
+    text-align: center;
+    align-content: end;
+    margin-left: 40px;
+}
+
+.box2{
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.box4{
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    width: 237px;
+    height: 209px;
+    background-color: green;
+    color: red;
+    text-align: center;
+    align-content: end;
+    margin-left: 40px;
+}
+
+.box3{
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    width: 411px;
+    height: 209px;
+    background-color: red;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    right: 50px;
+    top: 120px;
+}
+
+
+.box6{
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    width: 237px;
+    height: 209px;
+    background-color: green;
+    color: red;
+    text-align: center;
+    align-content: end;
+    margin-left: 40px;
+}
+
+.box5{
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    width: 237px;
+    height: 209px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    right: 130px;
+    top: 100px;
+}
+
+.main1{
+    margin-right: 120px;
+}
+
+.main2{
+    margin-left: 60px;
+}
+
+.main3{
+    margin-left: 120px;
+}
+
+.section2 h1{
+    margin: 80px auto;
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: white;
+
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+}
+
+.parent5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+}
+
+.main5{
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+
+}
+
+.main5 span{
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+    align-content: center;
+    padding-top: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.main5 p{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+    align-content: center;
+    padding-top: 147px;
+}
+
+.main6{
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+
+}
+
+.main6 span{
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+    align-content: center;
+    padding-top: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.main6 img{
+    position: relative;
+    top: 166px;
+}
+
+.main7{
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+
+}
+
+.main7 span{
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: center;
+    align-content: center;
+    padding-top: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.main7 img{
+    position: relative;
+    top: 80px;
+}
+
+.foot{
+    margin:87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 520px;
+}
+
+.foot ul{
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    margin-left: 280px;
+    display: flex;
+    align-items: center;
+    gap: 41px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+
+.foot ul li:first-child:hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+.foot ul li:nth-child(2):hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+.foot ul li:nth-child(3):hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
+
+
+.foot ul li:last-child:hover{
+    text-shadow: 0px 4px 7.4px red;
+    color: red;
+    transition: all 1s;
+}
